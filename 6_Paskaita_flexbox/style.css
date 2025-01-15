@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+}
+
+.flex-container {
+    /*paverčia į flex konteinerį*/
+    display: flex;/*konteineriai horizontaliai*/
+    /*flex-direction: column;*konteineriai vertikaliai
+      flex-direction: row-reverse;/*horizontaliai konteinerių skaičiukai pasikeičia nuo3 iki 1, ir dešiniame krašte
+      flex-direction: column-reverse;/*vertikaliai konteinerių skaičiukai pasikeičia nuo3 iki 1, ir kairiame krašte*/
+    flex-direction: row;/*pagal nutylėjimą yra row,jeigu padarau column, X ir Y apsiverčia*/
+   /* align-items: flex-start;/*Y ašis ,pradzioje
+      align-items: flex-end;/*Y ašis, apačioje
+      align-items: stretch;/*Y ašis, galėtų išsitempti, bet kadangi nustatytas aukštis, nesikeičia*/
+   align-items: center;/* Y ašis (aukštyn/žemyn)centre, jeigu flex-direction:row*/ 
+   justify-content: center;/* X ašis (kairė/dešinė)centre*/
+   /*justify-content: space-between;/*padaro lygius tarpus tarp elementų*/
+   height: 100%;
+   gap: 16px;/*{kai norim padaryti tarpelius tarp Itemų */
+}
+
+.flex-item {
+   /* flex-grow: 1;/* išsiplečia per visą plotį, kiek yra konteinris. Lygiai tą patį galime išgauti su width 33proc.
+   /* flex-shrink: 1;/* išsiplečia per visą plotį, kiek yra konteinris. Lygiai tą patį galime išgauti su width 33proc.
+  ARBA
+   /* width: 33%- suskaldo į 3lygias dalis*/
+
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}

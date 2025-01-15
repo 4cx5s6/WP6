@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between; /*desineje,kampe*/
+    align-items: center;
+    padding: 0 64px;
+}
+
+.logo {
+    width: 100px;
+    
+}
+section {
+    min-height: 100vh;
+    padding: 64px;/*į vidurį pasislinko tekstas*/
+}
+
+#about {
+    background-color:#ffe57f;
+}
+
+#work {
+    background-color: #ccff90;
+}
+
+#contacts {
+    background-color: #ea80fc;
+}
