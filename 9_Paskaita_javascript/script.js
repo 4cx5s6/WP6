@@ -104,4 +104,3 @@ for (let i = 0; i < products.length; i++) {
     let substraction = sum - 7; //8
     let multi = sum * substraction; //15*8
     let division = 6 / 3;
-    
